@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-image: url("images/town.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-title{
+    margin: 0;
+    background: lightgreen;
+    padding: 10px;
+    border-radius: 8px;
+}
+#header-sub{
+    background: lightgreen;
+    padding: 10px;
+    border-radius: 8px;
+}
+.shadow-text{
+    text-shadow: 0px 0px 1px #222;
+}
+#townFeatures-middleSection{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F2F2;
+}
+.size-img{
+    width: 150px;
+    height: 113px;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+}
+.size-para,.size-h4{
+    width: 200px;
+    line-height: 25px;
+}
+#footer{
+    height: 300px;
+}
+#guide-card{
+    background: lightgreen;
+    width: 400px;
+    display: flex;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+#guide-img{
+    width: 150px;
+    margin: 0 10px;
+    border: 2px solid #F5F2F2;
+    border-radius: 4px;
+}
+#guide-info{
+    line-height: 30px;
+}
+
+
