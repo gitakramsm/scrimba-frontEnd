@@ -1,7 +1,11 @@
 body {
     margin: 0;
     text-align: center;
-    box-sizing: border-box;
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+    background: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #header{
     display: flex;
@@ -19,6 +23,7 @@ body {
     height: 83px;
     border: 2px solid #B295FF;
     border-radius: 5px;
+    outline: none;
     margin-bottom: 20px;
     font-size: 50px;
     padding: 15px;
