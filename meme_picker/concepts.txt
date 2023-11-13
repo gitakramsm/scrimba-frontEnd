@@ -1,0 +1,9 @@
+for of
+import/export
+radio & checkbox inputs
+querySelector(to select checked inputs)
+getElementsByClassName
+parentElement
+classList.remove()
+.includes()
+.filter()
