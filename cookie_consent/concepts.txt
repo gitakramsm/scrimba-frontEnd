@@ -1,0 +1,10 @@
+setTimeOut
+element.style
+event.preventDefault
+form
+'required' attribute
+formData & .get()
+CSS: row-reverse
+toggling classes
+element.classList.toggle()
+'disabled' attribute
