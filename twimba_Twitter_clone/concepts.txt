@@ -1,0 +1,8 @@
+textarea
+.forEach()
+data attributes - to store data inside an html element
+conditionally render styles
+NOT operator - to flip a boolean
+CDN's(content delivery networks)
+  ->add icons(font awesome)
+  ->generate uuid's(uuidjs)
