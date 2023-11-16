@@ -1,0 +1,214 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* typography */
+
+h1 {
+    margin: 0;
+}
+
+h2{
+    color: #0E0E0E;
+    margin: 0;
+}
+
+.site-title {
+    font-size: 0.75rem;
+}
+
+.date {
+    font-size: 0.75rem;
+}
+
+.hero-title {
+    font-size: 2rem;
+}
+
+.recent-post-date {
+    font-size: 0.5rem;
+}
+
+.recent-post-title {
+    font-size: 1rem;
+}
+
+.recent-post-body {
+    font-size: 0.75rem;
+    color: #505050;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+}
+
+
+/* nav and links */
+
+a {
+    text-decoration: none;
+    color: #090909
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li a{
+    font-size: 0.5rem;
+    font-weight: bolder;
+    margin-left: 1.5em;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.recent-posts-title {
+    display: none;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.view-more-link {
+    font-size: 0.75rem;
+    color: #090909;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+
+/* layout */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .container,
+.logo-wrapper {
+    display: flex;
+}
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.hero {
+    background:goldenrod url('./images/article-image-hero-mob.png');
+    background-size: cover;
+    padding: 5em 0 1em 0;
+    color: white;
+}
+
+.logo-wrapper {
+    align-items: center;
+    gap: 3px;
+}
+
+.recent-posts {
+    margin-top: 2em;
+}
+
+.recent-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+}
+
+.recent-post-img {
+    width: 100%;
+}
+
+footer {
+    background: #202020;
+    padding: 0.5em;
+}
+
+/* media queries */
+
+@media (min-width: 576px) {
+    
+    .site-title {
+    font-size: 1rem;
+    }
+    
+    nav li a {
+        font-size: 0.75rem;
+        margin-left: 2em;
+    }
+    
+    .date {
+    font-size: 1rem;
+    }
+
+    .hero-title {
+    font-size: 2.5rem;
+    }
+    
+    .hero-body {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+    
+    .recent-post-date {
+        font-size: 0.75rem;
+    }
+
+    .recent-post-title {
+        font-size: 1.5rem;
+    }
+
+    .recent-post-body {
+        font-size: 1rem;
+        line-height: 1.25;
+        color: #505050;
+    }
+
+    footer p {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    
+    /* media layout */
+    
+    header .container {
+        padding: 1.5em 0;
+    }
+    
+    .recent-posts {
+        margin-top: 3em;
+    }
+    
+    .recent-posts-grid {
+        grid-gap: 1.75em;
+    }
+    
+    .hero {
+        background:goldenrod url('./images/article-image-hero-desktop.png');
+        background-size: cover;
+        padding: 10em 0 2em 0;
+    }
+    
+    .view-more-link {
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
+    
+    footer {
+        padding: 1em;
+    }
+}
